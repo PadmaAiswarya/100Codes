@@ -1,0 +1,6 @@
+str1 = input("Enter first string: ")
+str2 = input("Enter second string: ")
+s1 = str1.replace(" ", "").lower()
+s2 = str2.replace(" ", "").lower()
+is_anagram = sorted(s1) == sorted(s2)
+print(is_anagram)
